@@ -1,115 +1,78 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@misc{cabezas2025epistemicuncertaintyconformalscores,
+      title={Epistemic Uncertainty in Conformal Scores: A Unified Approach}, 
+      author={Luben M. C. Cabezas and Vagner S. Santos and Thiago R. Ramos and Rafael Izbicki},
+      year={2025},
+      eprint={2502.06995},
+      preview={epic.png},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      abstract={Conformal prediction methods create prediction bands with distribution-free guarantees but do not explicitly capture epistemic uncertainty, which can lead to overconfident predictions in data-sparse regions. Although recent conformal scores have been developed to address this limitation, they are typically designed for specific tasks, such as regression or quantile regression. Moreover, they rely on particular modeling choices for epistemic uncertainty, restricting their applicability. We introduce EPICSCORE, a model-agnostic approach that enhances any conformal score by explicitly integrating epistemic uncertainty. Leveraging Bayesian techniques such as Gaussian Processes, Monte Carlo Dropout, or Bayesian Additive Regression Trees, EPICSCORE adaptively expands predictive intervals in regions with limited data while maintaining compact intervals where data is abundant. As with any conformal method, it preserves finite-sample marginal coverage. Additionally, it also achieves asymptotic conditional coverage. Experiments demonstrate its good performance compared to existing methods. Designed for compatibility with any Bayesian model, but equipped with distribution-free guarantees, EPICSCORE provides a general-purpose framework for uncertainty quantification in prediction problems.},
+      bibtex_show={true},
+      html={https://arxiv.org/abs/2502.06995}, 
+      pdf={https://arxiv.org/pdf/2502.06995},
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
 }
 
-@book{einstein1956investigations,
+@misc{cabezas2024distributionfreecalibrationstatisticalconfidence,
+      title={Distribution-Free Calibration of Statistical Confidence Sets}, 
+      author={Luben M. C. Cabezas and Guilherme P. Soares and Thiago R. Ramos and Rafael B. Stern and Rafael Izbicki},
+      year={2024},
+      eprint={2411.19368},
+      archivePrefix={arXiv},
+      pdf={https://arxiv.org/pdf/2411.19368},
+      primaryClass={stat.ME},
+      html={https://arxiv.org/abs/2411.19368}, 
+      bibtex_show={true},
+      preview={trust.png},
+      abstract={     Constructing valid confidence sets is a crucial task in statistical inference, yet traditional methods often face challenges when dealing with complex models or limited observed sample sizes. These challenges are frequently encountered in modern applications, such as Likelihood-Free Inference (LFI). In these settings, confidence sets may fail to maintain a confidence level close to the nominal value. In this paper, we introduce two novel methods, TRUST and TRUST++, for calibrating confidence sets to achieve distribution-free conditional coverage. These methods rely entirely on simulated data from the statistical model to perform calibration. Leveraging insights from conformal prediction techniques adapted to the statistical inference context, our methods ensure both finite-sample local coverage and asymptotic conditional coverage as the number of simulations increases, even if n is small. They effectively handle nuisance parameters and provide computationally efficient uncertainty quantification for the estimated confidence sets. This allows users to assess whether additional simulations are necessary for robust inference. Through theoretical analysis and experiments on models with both tractable and intractable likelihoods, we demonstrate that our methods outperform existing approaches, particularly in small-sample regimes. This work bridges the gap between conformal prediction and statistical inference, offering practical tools for constructing valid confidence sets in complex models.},
+}
+
+@article{cabezas2023hierarchical,
+  title={Hierarchical clustering: Visualization, feature importance and model selection},
+  author={Cabezas, Luben MC and Izbicki, Rafael and Stern, Rafael B},
+  journal={Applied Soft Computing},
+  volume={141},
+  pages={110303},
+  year={2023},
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S1568494623003216},
+  pdf={https://arxiv.org/pdf/2112.01372},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  preview={hclust.png},
+  selected = {true},
+  abstract = {    We propose methods for the analysis of hierarchical clustering that fully use the multi-resolution structure provided by a dendrogram. Specifically, we propose a loss for choosing between clustering methods, a feature importance score and a graphical tool for visualizing the segmentation of features in a dendrogram. Current approaches to these tasks lead to loss of information since they require the user to generate a single partition of the instances by cutting the dendrogram at a specified level. Our proposed methods, instead, use the full structure of the dendrogram. The key insight behind the proposed methods is to view a dendrogram as a phylogeny. This analogy permits the assignment of a feature value to each internal node of a tree through an evolutionary model. Real and simulated datasets provide evidence that our proposed framework has desirable outcomes and gives more insights than state-of-art approaches. We provide an R package that implements our methods.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{cabezas2025regression,
+  title={Regression trees for fast and adaptive prediction intervals},
+  author={Cabezas, Luben MC and Otto, Mateus P and Izbicki, Rafael and Stern, Rafael B},
+  journal={Information Sciences},
+  volume={686},
+  pages={121369},
+  year={2025},
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S0020025524012830},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pdf={https://arxiv.org/pdf/2402.07357},
+  preview={clover.png},
+  selected = {true},
+  abstract = {    In predictive modeling, quantifying prediction uncertainty is crucial for reliable decision-making. Traditional conformal inference methods provide marginally valid predictive regions but often produce non-adaptive intervals when naively applied to regression, potentially biasing applications. Recent advances using quantile regressors or conditional density estimators improve adaptability but are typically tied to specific prediction models, limiting their ability to quantify uncertainty around arbitrary models. Similarly, methods based on partitioning the feature space adopt sub-optimal strategies, failing to consistently measure predictive uncertainty across the feature space, especially in adversarial examples. This paper introduces a model-agnostic family of methods to calibrate prediction intervals for regression with local coverage guarantees. By leveraging regression trees and Random Forests, our approach constructs data-adaptive partitions of the feature space to approximate conditional coverage, enhancing the accuracy and scalability of prediction intervals. Our methods outperform established benchmarks on simulated and real-world datasets. They are implemented in the Python package clover, which integrates seamlessly with the scikit-learn interface for practical application.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{izbicki2023react,
+  title={REACT to NHST: Sensible conclusions to meaningful hypotheses},
+  author={Izbicki, Rafael and Cabezas, Luben and Colugnatti, Fernando AB and Lassance, Rodrigo FL and de Souza, Altay AL and Stern, Rafael B},
+  year={2023},
+  eprint={2308.09112},
+  archivePrefix={arXiv},
+  pdf={https://arxiv.org/pdf/2308.09112},
+  primaryClass={stat.ME},
+  html={https://arxiv.org/abs/2308.09112}, 
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  preview={REACT.png},
+  abstract = {    While Null Hypothesis Significance Testing (NHST) remains a widely used statistical tool, it suffers from several shortcomings, such as conflating statistical and practical significance, sensitivity to sample size, and the inability to distinguish between accepting the null hypothesis and failing to reject it. Recent efforts have focused on developing alternatives to NHST to address these issues. Despite these efforts, conventional NHST remains dominant in scientific research due to its simplicity and perceived ease of interpretation. Our work presents a novel alternative to NHST that is just as accessible and intuitive: REACT. It not only tackles the shortcomings of NHST but also offers additional advantages over existing alternatives. For instance, REACT is easily applicable to multiparametric hypotheses and does not require stringent significance-level corrections when conducting multiple tests. We illustrate the practical utility of REACT through real-world data examples, using criteria aligned with common research practices to distinguish between the absence of evidence and evidence of absence.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}

@@ -1,200 +1,165 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Luben M. C. Cabezas",
+    "position": "PhD Candidate in Statistics",
+    "email": "lucruz45.cab@gmail.com",
+    "url": "https://monoxido45.github.io/",
+    "interests": "Uncertainty Quantification in ML, Statistical Learning, Non-Parametric Statistics"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Statistical Machine Learning Lab - SMaLL, UFSCar",
+      "position": "PhD researcher",
+      "url": "http://www.small.ufscar.br/",
+      "startDate": "2022-08-01",
+      "summary": "Research focused on Conformal Prediction, Likelihood-Free Inference, Non-Parametric Inference, and Hypothesis Testing. Under supervision of Prof. Rafael Izbicki",
+      "highlights": [
+        "Developed LOCART, a novel locally adaptive conformal prediction method, published as a full-length paper in Information Sciences",
+        "Local Calibration",
+        "Designed and maintained accessible Python and R packages to implement research frameworks.",
+        "Research funded by FAPESP (Grant 2022/08579-7)."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Terranova (Brazilian Jurimetrics Association)",
+      "position": " Statistics Intern",
+      "url": "https://trnv.com.br/",
+      "startDate": "2021-11-01",
+      "endDate": "2022-06-01",
+      "summary": "Developed and maintained internal R-based packages for data analysis and modeling."
+    },
+    {
+      "name": "Statistical Machine Learning Lab - SMaLL, UFSCar",
+      "position": "Research Assistant",
+      "url": "http://www.small.ufscar.br/",
+      "startDate": "2020-11-01",
+      "endDate": "2021-11-01",
+      "summary": "Undergraduate researcher at SMaLL, supervised by Rafael Izbicki. Developed new visualization techniques, feature importance metrics, and scoring methods for hierarchical clustering using phylogenetic probabilistic models.",
+      "highlights": [
+        "This work resulted in a full-length paper published in Applied Soft Computing (2023)",
+        "Research funded by FAPESP (Grant 2020/10861-7)."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Federal University of São Carlos and University of São Paulo",
+      "location": "São Carlos, Brazil",
+      "url": "https://www.pipges.ufscar.br",
+      "area": "Statistics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "startDate": "2022-08-01",
+      "GPA": "4.0/4.0",
+      "courses": [
+        "Advanced Probability",
+        "Advanced Inference",
+        "Statistical Learning",
+        "Advanced Topics in Statistical Learning",
+        "Stochastic Simulation"
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Federal University of São Carlos",
+      "location": "São Carlos, Brazil",
+      "url": "https://www.des.ufscar.br",
+      "area": "Statistics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-03-01",
+      "endDate": "2022-04-01",
+      "GPA": "9.24/10.0",
+      "courses": [
+        "Probability",
+        "Statistical Inference",
+        "Bayesian Inference",
+        "Machine Learning",
+        "Regression analysis",
+        "Stochastic Processes",
+        "Computationally Intensive Methods"
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Regression trees for fast and adaptive prediction intervals",
+      "publisher": "Information Sciences",
+      "releaseDate": "2025-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0020025524012830?via%3Dihub",
+      "abstract": "In predictive modeling, quantifying prediction uncertainty is crucial for reliable decision-making. Traditional conformal inference methods provide marginally valid predictive regions but often produce non-adaptive intervals when naively applied to regression, potentially biasing applications. Recent advances using quantile regressors or conditional density estimators improve adaptability but are typically tied to specific prediction models, limiting their ability to quantify uncertainty around arbitrary models. Similarly, methods based on partitioning the feature space adopt sub-optimal strategies, failing to consistently measure predictive uncertainty across the feature space, especially in adversarial examples. This paper introduces a model-agnostic family of methods to calibrate prediction intervals for regression with local coverage guarantees. By leveraging regression trees and Random Forests, our approach constructs data-adaptive partitions of the feature space to approximate conditional coverage, enhancing the accuracy and scalability of prediction intervals. Our methods outperform established benchmarks on simulated and real-world datasets. They are implemented in the Python package clover, which integrates seamlessly with the scikit-learn interface for practical application."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Hierarchical clustering: Visualization, feature importance and model selection",
+      "publisher": "Applied Soft Computing",
+      "releaseDate": "2023-07",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494623003216",
+      "summary": "We propose methods for the analysis of hierarchical clustering that fully use the multi-resolution structure provided by a dendrogram. Specifically, we propose a loss for choosing between clustering methods, a feature importance score and a graphical tool for visualizing the segmentation of features in a dendrogram. Current approaches to these tasks lead to loss of information since they require the user to generate a single partition of the instances by cutting the dendrogram at a specified level. Our proposed methods, instead, use the full structure of the dendrogram. The key insight behind the proposed methods is to view a dendrogram as a phylogeny. This analogy permits the assignment of a feature value to each internal node of a tree through an evolutionary model. Real and simulated datasets provide evidence that our proposed framework has desirable outcomes and gives more insights than state-of-art approaches. We provide an R package that implements our methods."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Coding",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "R",
+        "Python",
+        "Shell Script"
+      ]
+    },
+    {
+      "name": "Coding",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "R",
+        "Python",
+        "Bash"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Portuguese",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "🇧🇷"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "🇬🇧"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Advanced",
+      "icon": "🇪🇸"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic",
+      "icon": "🇫🇷"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Statistical Learning",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Conformal Prediction",
+        "Calibration",
+        "Uncertainty Quantification",
+        "Likelihood-Free Inference",
+        "Neural Networks",
+        "PAC Learning",
+        "Decision Trees and Random Forests"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Statistics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Non Parameteric Inference",
+        "Hypothesis Testing",
+        "Bayesian Inference"
+      ]
     }
   ]
 }
