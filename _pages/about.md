@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Deparment of Statistics - UFSCar/Institute of Mathematics and Computer Science -USP</a>.
 
@@ -9,14 +9,17 @@ profile:
   image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Ph.D. Student in Statistics</p>
+    <p>DEs-UFSCar, ICMC-USP</p>
     <p>São Carlos, SP-Brazil</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student in Statistics at the Interinstitutional Graduate Program in Statistics ([PIPGEs UFSCar–USP](https://www.pipges.ufscar.br)), a joint program between the Federal University of São Carlos and the University of São Paulo, Brazil. I am advised by Prof. [Rafael Izbicki](https://rafaelizbicki.com/) and Prof. [Rafael B. Stern](https://www.rafaelstern.science/). I hold a Bachelor's degree in Statistics from the Federal University of São Carlos (2022).
+I am a third-year Ph.D. student at the Interinstitutional Graduate Program in Statistics ([PIPGEs UFSCar–USP](https://www.pipges.ufscar.br)), a joint program between the Federal University of São Carlos and the University of São Paulo, Brazil. I am advised by Prof. [Rafael Izbicki](https://rafaelizbicki.com/) and Prof. [Rafael B. Stern](https://www.rafaelstern.science/). I hold a Bachelor's degree in Statistics from the Federal University of São Carlos (2022).
 
 My research interests lie in Uncertainty Quantification in Machine Learning, Statistical Learning, and Nonparametric Inference — with a particular focus on Conformal Prediction, Likelihood-Free Inference (Simulation-Based Inference), and Hypothesis Testing.
 

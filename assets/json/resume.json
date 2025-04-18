@@ -12,10 +12,9 @@
       "position": "PhD researcher",
       "url": "http://www.small.ufscar.br/",
       "startDate": "2022-08-01",
-      "summary": "Research focused on Conformal Prediction, Likelihood-Free Inference, Non-Parametric Inference, and Hypothesis Testing. Under supervision of Prof. Rafael Izbicki",
+      "summary": "Research focusing on Conformal Prediction, Likelihood-Free Inference, Non-Parametric Inference, and Hypothesis Testing. Under supervision of Prof. Rafael Izbicki",
       "highlights": [
         "Developed LOCART, a novel locally adaptive conformal prediction method, published as a full-length paper in Information Sciences",
-        "Local Calibration",
         "Designed and maintained accessible Python and R packages to implement research frameworks.",
         "Research funded by FAPESP (Grant 2022/08579-7)."
       ]
@@ -83,21 +82,37 @@
       "name": "Regression trees for fast and adaptive prediction intervals",
       "publisher": "Information Sciences",
       "releaseDate": "2025-01",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0020025524012830?via%3Dihub",
-      "abstract": "In predictive modeling, quantifying prediction uncertainty is crucial for reliable decision-making. Traditional conformal inference methods provide marginally valid predictive regions but often produce non-adaptive intervals when naively applied to regression, potentially biasing applications. Recent advances using quantile regressors or conditional density estimators improve adaptability but are typically tied to specific prediction models, limiting their ability to quantify uncertainty around arbitrary models. Similarly, methods based on partitioning the feature space adopt sub-optimal strategies, failing to consistently measure predictive uncertainty across the feature space, especially in adversarial examples. This paper introduces a model-agnostic family of methods to calibrate prediction intervals for regression with local coverage guarantees. By leveraging regression trees and Random Forests, our approach constructs data-adaptive partitions of the feature space to approximate conditional coverage, enhancing the accuracy and scalability of prediction intervals. Our methods outperform established benchmarks on simulated and real-world datasets. They are implemented in the Python package clover, which integrates seamlessly with the scikit-learn interface for practical application."
+      "url": "https://www.sciencedirect.com/science/article/pii/S0020025524012830?via%3Dihub"
     },
     {
       "name": "Hierarchical clustering: Visualization, feature importance and model selection",
       "publisher": "Applied Soft Computing",
       "releaseDate": "2023-07",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1568494623003216",
-      "summary": "We propose methods for the analysis of hierarchical clustering that fully use the multi-resolution structure provided by a dendrogram. Specifically, we propose a loss for choosing between clustering methods, a feature importance score and a graphical tool for visualizing the segmentation of features in a dendrogram. Current approaches to these tasks lead to loss of information since they require the user to generate a single partition of the instances by cutting the dendrogram at a specified level. Our proposed methods, instead, use the full structure of the dendrogram. The key insight behind the proposed methods is to view a dendrogram as a phylogeny. This analogy permits the assignment of a feature value to each internal node of a tree through an evolutionary model. Real and simulated datasets provide evidence that our proposed framework has desirable outcomes and gives more insights than state-of-art approaches. We provide an R package that implements our methods."
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494623003216"
+    },
+    {
+      "name": "Epistemic Uncertainty in Conformal Scores: A Unified Approach",
+      "publisher": "arXiv (pre-print)",
+      "releaseDate": "2025-02",
+      "url": "https://arxiv.org/abs/2502.06995"
+    },
+    {
+      "name": "Distribution-Free Calibration of Statistical Confidence Sets",
+      "publisher": "arXiv (pre-print)",
+      "releaseDate": "2024-12",
+      "url": "https://arxiv.org/abs/2411.19368"
+    },
+    {
+      "name": "REACT to NHST: Sensible conclusions to meaningful hypotheses",
+      "publisher": "arXiv (pre-print)",
+      "releaseDate": "2023-12",
+      "url": "https://arxiv.org/abs/2308.09112"
     }
   ],
   "skills": [
     {
       "name": "Coding",
-      "level": "Master",
+      "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "R",
@@ -106,13 +121,25 @@
       ]
     },
     {
-      "name": "Coding",
-      "level": "Master",
+      "name": "Developing tools",
+      "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "R",
-        "Python",
-        "Bash"
+        "Git",
+        "Markdown",
+        "Linux",
+        "Latex"
+      ]
+    },
+    {
+      "name": "Statistical Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Conformal Prediction",
+        "Decision Trees",
+        "Local Calibration",
+        "Neural Networks"
       ]
     }
   ],
