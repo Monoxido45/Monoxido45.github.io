@@ -12,10 +12,7 @@
       "position": "PhD researcher",
       "url": "http://www.small.ufscar.br/",
       "startDate": "2022-08-01",
-      "summary": "Research focusing on Conformal Prediction, Likelihood-Free Inference, Non-Parametric Inference, and Hypothesis Testing. Under supervision of Prof. Rafael Izbicki",
       "highlights": [
-        "Developed LOCART, a novel locally adaptive conformal prediction method, published as a full-length paper in Information Sciences",
-        "Designed and maintained accessible Python and R packages to implement research frameworks.",
         "Research funded by FAPESP (Grant 2022/08579-7)."
       ]
     },
@@ -24,8 +21,7 @@
       "position": " Statistics Intern",
       "url": "https://trnv.com.br/",
       "startDate": "2021-11-01",
-      "endDate": "2022-06-01",
-      "summary": "Developed and maintained internal R-based packages for data analysis and modeling."
+      "endDate": "2022-06-01"
     },
     {
       "name": "Statistical Machine Learning Lab - SMaLL, UFSCar",
@@ -33,9 +29,7 @@
       "url": "http://www.small.ufscar.br/",
       "startDate": "2020-11-01",
       "endDate": "2021-11-01",
-      "summary": "Undergraduate researcher at SMaLL, supervised by Rafael Izbicki. Developed new visualization techniques, feature importance metrics, and scoring methods for hierarchical clustering using phylogenetic probabilistic models.",
       "highlights": [
-        "This work resulted in a full-length paper published in Applied Soft Computing (2023)",
         "Research funded by FAPESP (Grant 2020/10861-7)."
       ]
     }
@@ -48,14 +42,7 @@
       "area": "Statistics",
       "studyType": "PhD",
       "startDate": "2022-08-01",
-      "GPA": "4.0/4.0",
-      "courses": [
-        "Advanced Probability",
-        "Advanced Inference",
-        "Statistical Learning",
-        "Advanced Topics in Statistical Learning",
-        "Stochastic Simulation"
-      ]
+      "GPA": "4.0/4.0"
     },
     {
       "institution": "Federal University of São Carlos",
@@ -65,16 +52,7 @@
       "studyType": "Bachelor of Science",
       "startDate": "2018-03-01",
       "endDate": "2022-04-01",
-      "GPA": "9.24/10.0",
-      "courses": [
-        "Probability",
-        "Statistical Inference",
-        "Bayesian Inference",
-        "Machine Learning",
-        "Regression analysis",
-        "Stochastic Processes",
-        "Computationally Intensive Methods"
-      ]
+      "GPA": "9.24/10.0"
     }
   ],
   "publications": [
