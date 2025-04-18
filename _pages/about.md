@@ -19,9 +19,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student at the Interinstitutional Graduate Program in Statistics ([PIPGEs UFSCar–USP](https://www.pipges.ufscar.br)), a joint program between the Federal University of São Carlos and the University of São Paulo, Brazil. I am advised by Prof. [Rafael Izbicki](https://rafaelizbicki.com/) and Prof. [Rafael B. Stern](https://www.rafaelstern.science/). I hold a Bachelor's degree in Statistics from the Federal University of São Carlos (2022).
+I am a third-year Ph.D. student in Statistics at the [Interinstitutional Graduate Program in Statistics (PIPGEs UFSCar–USP)](https://www.pipges.ufscar.br), a collaborative program between the Federal University of São Carlos and the University of São Paulo, Brazil. I am fortunate to be advised by [Prof. Rafael Izbicki](https://rafaelizbicki.com/) and [Prof. Rafael B. Stern](https://www.rafaelstern.science/). I earned my Bachelor's degree in Statistics from the Federal University of São Carlos in 2022.
 
-My research interests lie in Uncertainty Quantification in Machine Learning, Statistical Learning, and Nonparametric Inference — with a particular focus on Conformal Prediction, Likelihood-Free Inference (Simulation-Based Inference), and Hypothesis Testing.
+My research interests center around Uncertainty Quantification in Machine Learning, Statistical Learning, and Nonparametric Inference — with a particular emphasis on Conformal Prediction, Likelihood-Free Inference (also known as Simulation-Based Inference), and Hypothesis Testing. Lately, I have been especially interested in the intersection between Conformal Prediction and modern Statistical Inference, particularly in the context of likelihood-free methods.
+
+Outside of research, I enjoy reading books and mangás, going to the gym, and having long, curious conversations with friends.
+
 
 
 <!---
