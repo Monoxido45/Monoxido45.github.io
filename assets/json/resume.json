@@ -110,6 +110,18 @@
       ]
     },
     {
+      "name": "Research",
+      "level": "Advanced",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Writing",
+        "Benchmarking",
+        "Literature Review",
+        "Idea Generation",
+        "Communication"
+      ]
+    },
+    {
       "name": "Statistical Learning",
       "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
@@ -149,7 +161,7 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Conformal Prediction",
-        "Calibration",
+        "Local Calibration",
         "Uncertainty Quantification",
         "Likelihood-Free Inference",
         "Neural Networks",
@@ -163,7 +175,8 @@
       "keywords": [
         "Non Parameteric Inference",
         "Hypothesis Testing",
-        "Bayesian Inference"
+        "Bayesian Inference",
+        "Bayes Non-Parametric Inference"
       ]
     }
   ]
