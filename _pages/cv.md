@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 3
 cv_pdf: Luben_CV.pdf # you can also use external links here
-description: Resumed Curriculum Vitae. More details in the CV PDF.
+description: Brief CV. See PDF for complete details.
 toc:
   sidebar: left
 ---
