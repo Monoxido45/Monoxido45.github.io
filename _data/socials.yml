@@ -7,9 +7,17 @@
 # bluesky_url: # your bluesky URL
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: lucruz45.cab@gmail.com # your email address
+orcid_id: 0000-0001-5096-3209 # your ORCID ID
+scholar_userid: 8k8OE8gAAAAJ # your Google Scholar ID
+research_gate_profile: Luben-Cruz-Cabezas # your profile on ResearchGate
+semanticscholar_id: 2222648333 # your Semantic Scholar ID
+github_username: Monoxido45 # your GitHub user name
+linkedin_username: luben-miguel-cruz-cabezas-90b598220 # your LinkedIn user name
+lattes_id: 4622851508233513 # your ID on Lattes (Brazilian Lattes CV)
+dblp_url: https://dblp.org/pid/308/2272.html # your DBLP profile url
+rss_icon: true # set to true to show the RSS icon
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: Monoxido45 # your GitHub user name
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -17,22 +25,14 @@ github_username: Monoxido45 # your GitHub user name
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
-lattes_id: 4622851508233513 # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: luben-miguel-cruz-cabezas-90b598220 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0001-5096-3209 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-# rss_icon: true # set to true to show the RSS icon
-scholar_userid: 8k8OE8gAAAAJ # your Google Scholar ID
-dblp_url: https://dblp.org/pid/308/2272.html # your DBLP profile url
 # scopus_id: # your profile on Scopus
-semanticscholar_id: 2222648333 # your Semantic Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
 # telegram_username: # your Telegram user name
