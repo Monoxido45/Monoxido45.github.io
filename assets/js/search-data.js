@@ -94,27 +94,6 @@ ninja.data = [{
           window.open("mailto:%6C%75%63%72%75%7A%34%35.%63%61%62@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/Monoxido45", "_blank");
-        },
-      },{
-        id: 'social-lattes',
-        title: 'Lattes',
-        section: 'Socials',
-        handler: () => {
-          window.open("http://lattes.cnpq.br/4622851508233513", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/luben-miguel-cruz-cabezas-90b598220", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
@@ -129,11 +108,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=8k8OE8gAAAAJ", "_blank");
         },
       },{
-        id: 'social-dblp',
-        title: 'DBLP',
+        id: 'social-researchgate',
+        title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://dblp.org/pid/308/2272.html", "_blank");
+          window.open("https://www.researchgate.net/profile/Luben-Cruz-Cabezas/", "_blank");
         },
       },{
         id: 'social-semanticscholar',
@@ -141,6 +120,41 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.semanticscholar.org/author/2222648333", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Monoxido45", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/luben-miguel-cruz-cabezas-90b598220", "_blank");
+        },
+      },{
+        id: 'social-lattes',
+        title: 'Lattes',
+        section: 'Socials',
+        handler: () => {
+          window.open("http://lattes.cnpq.br/4622851508233513", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/308/2272.html", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
