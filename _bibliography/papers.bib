@@ -19,6 +19,22 @@
   abstract    = {Conformal prediction methods create prediction bands with distribution-free guarantees but do not explicitly capture epistemic uncertainty, which can lead to overconfident predictions in data-sparse regions. Although recent conformal scores have been developed to address this limitation, they are typically designed for specific tasks, such as regression or quantile regression. Moreover, they rely on particular modeling choices for epistemic uncertainty, restricting their applicability. We introduce EPICSCORE, a model-agnostic approach that enhances any conformal score by explicitly integrating epistemic uncertainty. Leveraging Bayesian techniques such as Gaussian Processes, Monte Carlo Dropout, or Bayesian Additive Regression Trees, EPICSCORE adaptively expands predictive intervals in regions with limited data while maintaining compact intervals where data is abundant. As with any conformal method, it preserves finite-sample marginal coverage. Additionally, it also achieves asymptotic conditional coverage. Experiments demonstrate its good performance compared to existing methods. Designed for compatibility with any Bayesian model, but equipped with distribution-free guarantees, EPICSCORE provides a general-purpose framework for uncertainty quantification in prediction problems.}
 }
 
+@article{cabezas2025cp4sbi,
+  title         = {CP4SBI: Local Conformal Calibration of Credible Sets in Simulation-Based Inference},
+  author        = {Luben M. C. Cabezas and Vagner S. Santos and Thiago R. Ramos and Pedro L. C. Rodrigues and Rafael Izbicki},
+  year          = {2025},
+  abstract      = {Current experimental scientists have been increasingly relying on simulationbased inference (SBI) to invert complex non-linear models with intractable likelihoods. However, posterior approximations obtained with SBI are often miscalibrated, causing credible regions to undercover true parameters. We develop CP4SBI, a model-agnostic conformal calibration framework that constructs credible sets with local Bayesian coverage. Our two proposed variants, namely local calibration via regression trees and CDF-based calibration, enable finite-sample local coverage guarantees for any scoring function, including HPD, symmetric, and quantile-based regions. Experiments on widely used SBI benchmarks demonstrate that our approach improves the quality of uncertainty quantification for neural posterior estimators using both normalizing flows and score-diffusion modeling.},
+  html          = {https://arxiv.org/abs/2508.17077},
+  pdf           = {https://arxiv.org/pdf/2508.17077},
+  primaryclass  = {stat.ML},
+  bibtex_show   = {true},
+  archiveprefix = {arXiv},
+  eprint        = {2508.17077},
+  preview       = {cp4sbi.png}
+}
+
+
+
 
 @misc{cabezas2024distributionfreecalibrationstatisticalconfidence,
   title         = {Distribution-Free Calibration of Statistical Confidence Sets},
