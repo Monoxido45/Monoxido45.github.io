@@ -23,7 +23,8 @@
   title         = {CP4SBI: Local Conformal Calibration of Credible Sets in Simulation-Based Inference},
   author        = {Luben M. C. Cabezas and Vagner S. Santos and Thiago R. Ramos and Pedro L. C. Rodrigues and Rafael Izbicki},
   month         = {},
-  year          = {2025},
+  year          = {2026},
+  journal       = {Accepted at Philosophical Transactions of the Royal Society A},
   abstract      = {Current experimental scientists have been increasingly relying on simulationbased inference (SBI) to invert complex non-linear models with intractable likelihoods. However, posterior approximations obtained with SBI are often miscalibrated, causing credible regions to undercover true parameters. We develop CP4SBI, a model-agnostic conformal calibration framework that constructs credible sets with local Bayesian coverage. Our two proposed variants, namely local calibration via regression trees and CDF-based calibration, enable finite-sample local coverage guarantees for any scoring function, including HPD, symmetric, and quantile-based regions. Experiments on widely used SBI benchmarks demonstrate that our approach improves the quality of uncertainty quantification for neural posterior estimators using both normalizing flows and score-diffusion modeling.},
   html          = {https://arxiv.org/abs/2508.17077},
   pdf           = {https://arxiv.org/pdf/2508.17077},
@@ -35,21 +36,60 @@
 }
 
 
-
-
-@misc{cabezas2024distributionfreecalibrationstatisticalconfidence,
-  title         = {Distribution-Free Calibration of Statistical Confidence Sets},
-  author        = {Luben M. C. Cabezas and Guilherme P. Soares and Thiago R. Ramos and Rafael B. Stern and Rafael Izbicki},
-  year          = {2024},
-  eprint        = {2411.19368},
-  archiveprefix = {arXiv},
-  pdf           = {https://arxiv.org/pdf/2411.19368},
-  primaryclass  = {stat.ME},
-  html          = {https://arxiv.org/abs/2411.19368},
+@article{cabezas2026credo,
+  title={CREDO: Epistemic-Aware Conformalized Credal Envelopes for Regression},
+  author={Cabezas, Luben and Sloman, Sabina J and Resende, Bruno M and Wu, Fanyi and Caprio, Michele and Izbicki, Rafael},
+  journal={arXiv preprint arXiv:2603.06826},
+  html          = {https://arxiv.org/abs/2603.06826},
+  pdf           = {https://arxiv.org/pdf/2603.06826},
+  primaryclass  = {stat.ML},
   bibtex_show   = {true},
-  preview       = {trust.png},
-  abstract      = {     Constructing valid confidence sets is a crucial task in statistical inference, yet traditional methods often face challenges when dealing with complex models or limited observed sample sizes. These challenges are frequently encountered in modern applications, such as Likelihood-Free Inference (LFI). In these settings, confidence sets may fail to maintain a confidence level close to the nominal value. In this paper, we introduce two novel methods, TRUST and TRUST++, for calibrating confidence sets to achieve distribution-free conditional coverage. These methods rely entirely on simulated data from the statistical model to perform calibration. Leveraging insights from conformal prediction techniques adapted to the statistical inference context, our methods ensure both finite-sample local coverage and asymptotic conditional coverage as the number of simulations increases, even if n is small. They effectively handle nuisance parameters and provide computationally efficient uncertainty quantification for the estimated confidence sets. This allows users to assess whether additional simulations are necessary for robust inference. Through theoretical analysis and experiments on models with both tractable and intractable likelihoods, we demonstrate that our methods outperform existing approaches, particularly in small-sample regimes. This work bridges the gap between conformal prediction and statistical inference, offering practical tools for constructing valid confidence sets in complex models.}
+  archiveprefix = {arXiv},
+  abstract = { Conformal prediction delivers prediction intervals with distribution-free coverage, but its intervals can look
+overconfident in regions where the model is extrapolating, because standard conformal scores do not explicitly
+represent epistemic uncertainty. Credal methods, by contrast, make epistemic effects visible by working with
+sets of plausible predictive distributions, but they are typically model-based and lack calibration guarantees. We
+introduce CREDO, a simple “credal-then-conformalize” recipe that combines both strengths. CREDO first builds an
+interpretable credal envelope that widens when local evidence is weak, then applies split conformal calibration
+on top of this envelope to guarantee marginal coverage without further assumptions. This separation of roles
+yields prediction intervals that are interpretable: their width can be decomposed into aleatoric noise, epistemic
+inflation, and a distribution-free calibration slack. We provide a fast implementation based on trimming extreme
+posterior predictive endpoints, prove validity, and show on benchmark regressions that CREDO maintains target
+coverage while improving sparsity adaptivity at competitive efficiency.},
+  eprint     = {2603.06826},
+  year={2026}
 }
+
+@article{santos2026loboost,
+  title={LoBoost: Fast Model-Native Local Conformal Prediction for Gradient-Boosted Trees},
+  author={Santos, Vagner and Coscrato, Victor and Cabezas, Luben and Izbicki, Rafael and Ramos, Thiago},
+  journal={arXiv preprint arXiv:2602.22432},
+  html          = {https://arxiv.org/abs/2602.22432},
+  pdf           = {https://arxiv.org/pdf/2602.22432},
+  primaryclass  = {stat.ML},
+  bibtex_show   = {true},
+  archiveprefix = {arXiv},
+  abstract = { Gradient-boosted decision trees are among the strongest off-the-shelf predictors for tabular regression, but point predictions alone do not quantify uncertainty. Conformal prediction provides distribution-free marginal coverage, yet split conformal uses a single global residual quantile and can be poorly adaptive under heteroscedasticity. Methods that improve adaptivity typically fit auxiliary nuisance models or introduce additional data splits/partitions to learn the conformal score, increasing cost and reducing data efficiency. We propose LoBoost, a model-native local conformal method that reuses the fitted ensemble's leaf structure to define multiscale calibration groups. Each input is encoded by its sequence of visited leaves; at resolution level k, we group points by matching prefixes of leaf indices across the first k trees and calibrate residual quantiles within each group. LoBoost requires no retraining, auxiliary models, or extra splitting beyond the standard train/calibration split. Experiments show competitive interval quality, improved test MSE on most datasets, and large calibration speedups.},
+  eprint     = {2602.22432},
+  year={2026}
+}
+
+@article{cabezas2024distributionfreecalibrationstatisticalconfidence,
+  title={Conformal Calibration of Statistical Confidence Sets},
+  author={Luben Miguel Cruz Cabezas and Guilherme Soares and Thiago Ramos and Rafael Bassi Stern and Rafael Izbicki},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2026},
+  url={https://openreview.net/forum?id=J4lK62PVE6},
+  note={},
+  preview  = {trust.png},
+  abstract = { Constructing valid confidence sets is a crucial task in statistical inference, yet traditional methods often face challenges when dealing with complex models or limited observed sample sizes. These challenges are frequently encountered in modern applications, such as Likelihood-Free Inference (LFI). In these settings, confidence sets may fail to maintain a confidence level close to the nominal value. In this paper, we introduce two novel methods, TRUST and TRUST++, for calibrating confidence sets to achieve distribution-free conditional coverage. These methods rely entirely on simulated data from the statistical model to perform calibration. Leveraging insights from conformal prediction techniques adapted to the statistical inference context, our methods ensure both finite-sample local coverage and asymptotic conditional coverage as the number of simulations increases, even if n is small. They effectively handle nuisance parameters and provide computationally efficient uncertainty quantification for the estimated confidence sets. This allows users to assess whether additional simulations are necessary for robust inference. Through theoretical analysis and experiments on models with both tractable and intractable likelihoods, we demonstrate that our methods outperform existing approaches, particularly in small-sample regimes. This work bridges the gap between conformal prediction and statistical inference, offering practical tools for constructing valid confidence sets in complex models.},
+  html = {https://openreview.net/forum?id=J4lK62PVE6},
+  pdf = {https://openreview.net/pdf?id=J4lK62PVE6},
+  bibtex_show   = {true},
+}
+
+
 
 @article{cabezas2023hierarchical,
   title       = {Hierarchical clustering: Visualization, feature importance and model selection},
