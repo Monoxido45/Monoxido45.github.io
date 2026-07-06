@@ -70,9 +70,9 @@
     },
     {
       "name": "Epistemic Uncertainty in Conformal Scores: A Unified Approach",
-      "publisher": "arXiv (pre-print)",
-      "releaseDate": "2025-02",
-      "url": "https://arxiv.org/abs/2502.06995"
+      "publisher": "Proceedings on Machine Learning Research (PMLR)",
+      "releaseDate": "2025-06",
+      "url": "https://openreview.net/pdf/76a322f280fd331646daba598b6fa2115ad083e1.pdf"
     },
     {
       "name": "Distribution-Free Calibration of Statistical Confidence Sets",
