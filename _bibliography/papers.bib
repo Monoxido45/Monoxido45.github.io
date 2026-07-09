@@ -74,6 +74,34 @@ coverage while improving sparsity adaptivity at competitive efficiency.},
   year={2026}
 }
 
+@article{amaral2025conformal,
+  title={Conformal Prediction for Compositional Data},
+  author={Amaral, Lucas P and Cabezas, Luben and Ramos, Thiago R and Pereira, Gustavo HGA},
+  journal={arXiv preprint arXiv:2511.18141},
+  html          = {https://arxiv.org/abs/2511.18141},
+  pdf           = {https://arxiv.org/pdf/2511.18141},
+  primaryclass  = {stat.ML},
+  bibtex_show   = {true},
+  archiveprefix = {arXiv},
+  eprint = {2511.18141},
+  abstract = {In this work, we propose a set of conformal prediction procedures tailored to compositional responses, where outcomes are proportions that must be positive and sum to one. Building on Dirichlet regression, we introduce a split conformal approach based on quantile residuals and a highest-density region strategy that combines a fast coordinate-floor approximation with an internal grid refinement to restore sharpness. Both constructions are model-agnostic at the conformal layer and guarantee finite-sample marginal coverage under exchangeability, while respecting the geometry of the simplex. A comprehensive Monte Carlo study spanning homoscedastic and heteroscedastic designs shows that the quantile residual and grid-refined HDR methods achieve empirical coverage close to the nominal 90\% level and produce substantially narrower regions than the coordinate-floor approximation, which tends to be conservative. We further demonstrate the methods on household budget shares from the BudgetItaly dataset, using standardized socioeconomic and price covariates with a train, calibration, and test split. In this application, the grid-refined HDR attains coverage closest to the target with the smallest average widths, closely followed by the quantile residual approach, while the simple triangular HDR yields wider, less informative sets. Overall, the results indicate that conformal prediction on the simplex can be both calibrated and efficient, providing practical uncertainty quantification for compositional prediction tasks.},
+  year={2025}
+}
+
+@article{ramos2026conformal,
+  title={Conformal Prediction via Transported Beta Laws},
+  author={Ramos, Thiago R and Graziadei, Helton and Cabezas, Luben},
+  journal       = {Accepted at COPA proceedings 2026},
+   html          = {https://arxiv.org/abs/2605.19024},
+  pdf           = {https://arxiv.org/pdf/2605.19024},
+  primaryclass  = {stat.ML},
+  bibtex_show   = {true},
+  archiveprefix = {arXiv},
+  eprint = {2605.19024},
+  abstract = {Split conformal prediction provides finite-sample marginal coverage under exchangeability, but this guarantee averages over the random calibration sample. We study instead the law of the calibration-conditional coverage induced by a realized conformal threshold. In the continuous i.i.d. setting this law is exactly Beta(k, n + 1 − k), so the usual marginal guarantee corresponds to its mean. We take this beta law as a finite-sample reference object and quantify departures from it using Wasserstein distances on [0, 1]. The framework yields direct bounds on marginal coverage gaps and on bad-calibration probabilities, and separates different sources of non-i.i.d. behavior according to how they deform the beta reference: test-side shift acts through a transport map on the coverage scale, while calibration dependence changes the order-statistic law itself. We instantiate the framework in scaleshift, clustered, and stationary mixing settings, where the induced deformations can be characterized explicitly or through Berry–Esseen approximations. Simulations on dependent processes confirm that the first-order approximation tracks the empirical Wasserstein distance even at moderate sample sizes.},
+  year={2026}
+}
+
 @article{cabezas2024distributionfreecalibrationstatisticalconfidence,
   title={Conformal Calibration of Statistical Confidence Sets},
   author={Luben Miguel Cruz Cabezas and Guilherme Soares and Thiago Ramos and Rafael Bassi Stern and Rafael Izbicki},
