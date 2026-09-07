@@ -20,19 +20,23 @@
 }
 
 @article{cabezas2025cp4sbi,
-  title         = {CP4SBI: Local Conformal Calibration of Credible Sets in Simulation-Based Inference},
-  author        = {Luben M. C. Cabezas and Vagner S. Santos and Thiago R. Ramos and Pedro L. C. Rodrigues and Rafael Izbicki},
-  month         = {},
-  year          = {2026},
-  journal       = {Accepted at Philosophical Transactions of the Royal Society A},
-  abstract      = {Current experimental scientists have been increasingly relying on simulationbased inference (SBI) to invert complex non-linear models with intractable likelihoods. However, posterior approximations obtained with SBI are often miscalibrated, causing credible regions to undercover true parameters. We develop CP4SBI, a model-agnostic conformal calibration framework that constructs credible sets with local Bayesian coverage. Our two proposed variants, namely local calibration via regression trees and CDF-based calibration, enable finite-sample local coverage guarantees for any scoring function, including HPD, symmetric, and quantile-based regions. Experiments on widely used SBI benchmarks demonstrate that our approach improves the quality of uncertainty quantification for neural posterior estimators using both normalizing flows and score-diffusion modeling.},
-  html          = {https://arxiv.org/abs/2508.17077},
-  pdf           = {https://arxiv.org/pdf/2508.17077},
-  primaryclass  = {stat.ML},
+  author = {Cabezas, Luben Miguel Cruz and Santos, Vagner Silva and Ramos, Thiago Rodrigo and Rodrigues, Pedro L. C. and Izbicki, Rafael},
+  title = {CP4SBI: local conformal calibration of credible sets in simulation-based inference},
+  journal = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  volume = {384},
+  number = {2327},
+  pages = {20250069},
+  year = {2026},
+  month = {08},
+  abstract = {Current experimental scientists have been increasingly relying on simulation-based inference (SBI) to invert complex nonlinear models with intractable likelihoods. However, posterior approximations obtained with SBI are often miscalibrated, causing credible regions to undercover true parameters. We develop CP4SBI, a model-agnostic conformal calibration framework that constructs credible sets with local Bayesian coverage. Our two proposed variants, namely local calibration via regression trees and cumulative distribution function CDF-based calibration, enable finite-sample local coverage guarantees for any scoring function, including highest posterior density (HPD), symmetric and quantile-based regions. Experiments on widely used SBI benchmarks demonstrate that our approach improves the quality of uncertainty quantification for neural posterior estimators (NPEs) using both normalizing flows and score-diffusion modelling.This article is part of the theme issue ‘Advancing uncertainty quantification in AI systems’.},
+  issn = {1364-503X},
+  doi = {10.1098/rsta.2025.0069},
+  url = {https://doi.org/10.1098/rsta.2025.0069},
+  eprint = {https://royalsocietypublishing.org/rsta/article-pdf/doi/10.1098/rsta.2025.0069/6162180/rsta.2025.0069.pdf},
+  preview       = {cp4sbi.png},
   bibtex_show   = {true},
-  archiveprefix = {arXiv},
-  eprint        = {2508.17077},
-  preview       = {cp4sbi.png}
+  pdf           = {https://arxiv.org/pdf/2508.17077},
+  html          = {https://royalsocietypublishing.org/rsta/article/384/2327/20250069/483087/CP4SBI-local-conformal-calibration-of-credible},
 }
 
 
@@ -90,18 +94,22 @@ coverage while improving sparsity adaptivity at competitive efficiency.},
   year={2025}
 }
 
-@article{ramos2026conformal,
+
+@InProceedings{ramos2026conformal,
   title={Conformal Prediction via Transported Beta Laws},
   author={Ramos, Thiago R and Graziadei, Helton and Cabezas, Luben},
-  journal       = {Accepted at COPA proceedings 2026},
-   html          = {https://arxiv.org/abs/2605.19024},
-  pdf           = {https://arxiv.org/pdf/2605.19024},
-  primaryclass  = {stat.ML},
-  bibtex_show   = {true},
-  archiveprefix = {arXiv},
-  eprint = {2605.19024},
-  abstract = {Split conformal prediction provides finite-sample marginal coverage under exchangeability, but this guarantee averages over the random calibration sample. We study instead the law of the calibration-conditional coverage induced by a realized conformal threshold. In the continuous i.i.d. setting this law is exactly Beta(k, n + 1 − k), so the usual marginal guarantee corresponds to its mean. We take this beta law as a finite-sample reference object and quantify departures from it using Wasserstein distances on [0, 1]. The framework yields direct bounds on marginal coverage gaps and on bad-calibration probabilities, and separates different sources of non-i.i.d. behavior according to how they deform the beta reference: test-side shift acts through a transport map on the coverage scale, while calibration dependence changes the order-statistic law itself. We instantiate the framework in scaleshift, clustered, and stationary mixing settings, where the induced deformations can be characterized explicitly or through Berry–Esseen approximations. Simulations on dependent processes confirm that the first-order approximation tracks the empirical Wasserstein distance even at moderate sample sizes.},
-  year={2026}
+  booktitle = 	 {Proceedings of the Fifteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {133--168},
+  year = 	 {2026},
+  editor = 	 {Ahlberg, Ernst and Johansson, Ulf and Boström, Henrik and Carlevaro, Alberto and Hallberg Szabadváry, Johan and Carlsson, Lars},
+  volume = 	 {329},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {02--04 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v329/main/assets/r-ramos26a/r-ramos26a.pdf},
+  url = 	 {https://proceedings.mlr.press/v329/r-ramos26a.html},
+  abstract = 	 {Split conformal prediction provides finite-sample marginal coverage under exchangeability, but this guarantee averages over the random calibration sample. We study instead the law of the calibration-conditional coverage induced by a realized conformal threshold. In the continuous i.i.d. setting this law is exactly Beta(k,n+1-k), so the usual marginal guarantee corresponds to its mean. We take this beta law as a finite-sample reference object and quantify departures from it using Wasserstein distances on [0,1]. The framework yields direct bounds on marginal coverage gaps and on bad-calibration probabilities, and separates different sources of non-i.i.d. behavior according to how they deform the beta reference: test-side shift acts through a transport map on the coverage scale, while calibration dependence changes the order-statistic law itself. We instantiate the framework in scale-shift, clustered, and stationary mixing settings, where the induced deformations can be characterized explicitly or through Berry–Esseen approximations. Simulations on dependent processes confirm that the first-order approximation tracks the empirical Wasserstein distance even at moderate sample sizes.},
+  bibtex_show   = {true}
 }
 
 @article{cabezas2024distributionfreecalibrationstatisticalconfidence,
