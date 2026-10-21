@@ -118,6 +118,22 @@
       "url": "https://www.tqmp.org/RegularArticles/vol21-2/p043/index.html"
     }
   ],
+  "awards": [
+    {
+      "title": "Best Paper Award",
+      "date": "2026-09",
+      "awarder": "Symposium on Conformal and Probabilistic Prediction with Applications (COPA 2026)",
+      "url": "https://proceedings.mlr.press/v329/r-ramos26a.html",
+      "summary": "Conformal Prediction via Transported Beta Laws"
+    },
+    {
+      "title": "Oral Presentation",
+      "date": "2025-07",
+      "awarder": "Conference on Uncertainty in Artificial Intelligence (UAI 2025)",
+      "url": "https://proceedings.mlr.press/v286/cruz-cabezas25a.html",
+      "summary": "Epistemic Uncertainty in Conformal Scores: A Unified Approach"
+    }
+  ],
   "skills": [
     {
       "name": "Coding",
