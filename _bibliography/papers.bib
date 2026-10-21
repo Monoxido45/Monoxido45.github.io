@@ -14,117 +14,123 @@
   publisher   = {PMLR},
   bibtex_show = {true},
   selected    = {true},
+  award_name  = {Oral Presentation},
+  award       = {Selected for an oral presentation at UAI 2025.},
   pdf         = {https://raw.githubusercontent.com/mlresearch/v286/main/assets/cruz-cabezas25a/cruz-cabezas25a.pdf},
   url         = {https://proceedings.mlr.press/v286/cruz-cabezas25a.html},
   abstract    = {Conformal prediction methods create prediction bands with distribution-free guarantees but do not explicitly capture epistemic uncertainty, which can lead to overconfident predictions in data-sparse regions. Although recent conformal scores have been developed to address this limitation, they are typically designed for specific tasks, such as regression or quantile regression. Moreover, they rely on particular modeling choices for epistemic uncertainty, restricting their applicability. We introduce EPICSCORE, a model-agnostic approach that enhances any conformal score by explicitly integrating epistemic uncertainty. Leveraging Bayesian techniques such as Gaussian Processes, Monte Carlo Dropout, or Bayesian Additive Regression Trees, EPICSCORE adaptively expands predictive intervals in regions with limited data while maintaining compact intervals where data is abundant. As with any conformal method, it preserves finite-sample marginal coverage. Additionally, it also achieves asymptotic conditional coverage. Experiments demonstrate its good performance compared to existing methods. Designed for compatibility with any Bayesian model, but equipped with distribution-free guarantees, EPICSCORE provides a general-purpose framework for uncertainty quantification in prediction problems.}
 }
 
 @article{cabezas2025cp4sbi,
-  author = {Cabezas, Luben Miguel Cruz and Santos, Vagner Silva and Ramos, Thiago Rodrigo and Rodrigues, Pedro L. C. and Izbicki, Rafael},
-  title = {CP4SBI: local conformal calibration of credible sets in simulation-based inference},
-  journal = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
-  volume = {384},
-  number = {2327},
-  pages = {20250069},
-  year = {2026},
-  month = {08},
-  abstract = {Current experimental scientists have been increasingly relying on simulation-based inference (SBI) to invert complex nonlinear models with intractable likelihoods. However, posterior approximations obtained with SBI are often miscalibrated, causing credible regions to undercover true parameters. We develop CP4SBI, a model-agnostic conformal calibration framework that constructs credible sets with local Bayesian coverage. Our two proposed variants, namely local calibration via regression trees and cumulative distribution function CDF-based calibration, enable finite-sample local coverage guarantees for any scoring function, including highest posterior density (HPD), symmetric and quantile-based regions. Experiments on widely used SBI benchmarks demonstrate that our approach improves the quality of uncertainty quantification for neural posterior estimators (NPEs) using both normalizing flows and score-diffusion modelling.This article is part of the theme issue ‘Advancing uncertainty quantification in AI systems’.},
-  issn = {1364-503X},
-  doi = {10.1098/rsta.2025.0069},
-  url = {https://doi.org/10.1098/rsta.2025.0069},
-  eprint = {https://royalsocietypublishing.org/rsta/article-pdf/doi/10.1098/rsta.2025.0069/6162180/rsta.2025.0069.pdf},
-  preview       = {cp4sbi.png},
-  bibtex_show   = {true},
-  pdf           = {https://arxiv.org/pdf/2508.17077},
-  html          = {https://royalsocietypublishing.org/rsta/article/384/2327/20250069/483087/CP4SBI-local-conformal-calibration-of-credible},
+  author      = {Cabezas, Luben Miguel Cruz and Santos, Vagner Silva and Ramos, Thiago Rodrigo and Rodrigues, Pedro L. C. and Izbicki, Rafael},
+  title       = {CP4SBI: local conformal calibration of credible sets in simulation-based inference},
+  journal     = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  volume      = {384},
+  number      = {2327},
+  pages       = {20250069},
+  year        = {2026},
+  month       = {08},
+  selected    = {true},
+  abstract    = {Current experimental scientists have been increasingly relying on simulation-based inference (SBI) to invert complex nonlinear models with intractable likelihoods. However, posterior approximations obtained with SBI are often miscalibrated, causing credible regions to undercover true parameters. We develop CP4SBI, a model-agnostic conformal calibration framework that constructs credible sets with local Bayesian coverage. Our two proposed variants, namely local calibration via regression trees and cumulative distribution function CDF-based calibration, enable finite-sample local coverage guarantees for any scoring function, including highest posterior density (HPD), symmetric and quantile-based regions. Experiments on widely used SBI benchmarks demonstrate that our approach improves the quality of uncertainty quantification for neural posterior estimators (NPEs) using both normalizing flows and score-diffusion modelling.This article is part of the theme issue ‘Advancing uncertainty quantification in AI systems’.},
+  issn        = {1364-503X},
+  doi         = {10.1098/rsta.2025.0069},
+  url         = {https://doi.org/10.1098/rsta.2025.0069},
+  eprint      = {https://royalsocietypublishing.org/rsta/article-pdf/doi/10.1098/rsta.2025.0069/6162180/rsta.2025.0069.pdf},
+  preview     = {cp4sbi.png},
+  bibtex_show = {true},
+  pdf         = {https://arxiv.org/pdf/2508.17077},
+  html        = {https://royalsocietypublishing.org/rsta/article/384/2327/20250069/483087/CP4SBI-local-conformal-calibration-of-credible}
 }
 
 
 @article{cabezas2026credo,
-  title={CREDO: Epistemic-Aware Conformalized Credal Envelopes for Regression},
-  author={Cabezas, Luben and Sloman, Sabina J and Resende, Bruno M and Wu, Fanyi and Caprio, Michele and Izbicki, Rafael},
-  journal={arXiv preprint arXiv:2603.06826},
+  title         = {CREDO: Epistemic-Aware Conformalized Credal Envelopes for Regression},
+  author        = {Cabezas, Luben and Sloman, Sabina J and Resende, Bruno M and Wu, Fanyi and Caprio, Michele and Izbicki, Rafael},
+  journal       = {arXiv preprint arXiv:2603.06826},
   html          = {https://arxiv.org/abs/2603.06826},
   pdf           = {https://arxiv.org/pdf/2603.06826},
   primaryclass  = {stat.ML},
   bibtex_show   = {true},
   archiveprefix = {arXiv},
-  abstract = { Conformal prediction delivers prediction intervals with distribution-free coverage, but its intervals can look
-overconfident in regions where the model is extrapolating, because standard conformal scores do not explicitly
-represent epistemic uncertainty. Credal methods, by contrast, make epistemic effects visible by working with
-sets of plausible predictive distributions, but they are typically model-based and lack calibration guarantees. We
-introduce CREDO, a simple “credal-then-conformalize” recipe that combines both strengths. CREDO first builds an
-interpretable credal envelope that widens when local evidence is weak, then applies split conformal calibration
-on top of this envelope to guarantee marginal coverage without further assumptions. This separation of roles
-yields prediction intervals that are interpretable: their width can be decomposed into aleatoric noise, epistemic
-inflation, and a distribution-free calibration slack. We provide a fast implementation based on trimming extreme
-posterior predictive endpoints, prove validity, and show on benchmark regressions that CREDO maintains target
-coverage while improving sparsity adaptivity at competitive efficiency.},
-  eprint     = {2603.06826},
-  year={2026},
-  preview = {credo.png}
+  abstract      = { Conformal prediction delivers prediction intervals with distribution-free coverage, but its intervals can look
+                   overconfident in regions where the model is extrapolating, because standard conformal scores do not explicitly
+                   represent epistemic uncertainty. Credal methods, by contrast, make epistemic effects visible by working with
+                   sets of plausible predictive distributions, but they are typically model-based and lack calibration guarantees. We
+                   introduce CREDO, a simple “credal-then-conformalize” recipe that combines both strengths. CREDO first builds an
+                   interpretable credal envelope that widens when local evidence is weak, then applies split conformal calibration
+                   on top of this envelope to guarantee marginal coverage without further assumptions. This separation of roles
+                   yields prediction intervals that are interpretable: their width can be decomposed into aleatoric noise, epistemic
+                   inflation, and a distribution-free calibration slack. We provide a fast implementation based on trimming extreme
+                   posterior predictive endpoints, prove validity, and show on benchmark regressions that CREDO maintains target
+                   coverage while improving sparsity adaptivity at competitive efficiency.},
+  eprint        = {2603.06826},
+  year          = {2026},
+  preview       = {credo.png}
 }
 
 @article{santos2026loboost,
-  title={LoBoost: Fast Model-Native Local Conformal Prediction for Gradient-Boosted Trees},
-  author={Santos, Vagner and Coscrato, Victor and Cabezas, Luben and Izbicki, Rafael and Ramos, Thiago},
-  journal={arXiv preprint arXiv:2602.22432},
+  title         = {LoBoost: Fast Model-Native Local Conformal Prediction for Gradient-Boosted Trees},
+  author        = {Santos, Vagner and Coscrato, Victor and Cabezas, Luben and Izbicki, Rafael and Ramos, Thiago},
+  journal       = {arXiv preprint arXiv:2602.22432},
   html          = {https://arxiv.org/abs/2602.22432},
   pdf           = {https://arxiv.org/pdf/2602.22432},
   primaryclass  = {stat.ML},
   bibtex_show   = {true},
   archiveprefix = {arXiv},
-  abstract = { Gradient-boosted decision trees are among the strongest off-the-shelf predictors for tabular regression, but point predictions alone do not quantify uncertainty. Conformal prediction provides distribution-free marginal coverage, yet split conformal uses a single global residual quantile and can be poorly adaptive under heteroscedasticity. Methods that improve adaptivity typically fit auxiliary nuisance models or introduce additional data splits/partitions to learn the conformal score, increasing cost and reducing data efficiency. We propose LoBoost, a model-native local conformal method that reuses the fitted ensemble's leaf structure to define multiscale calibration groups. Each input is encoded by its sequence of visited leaves; at resolution level k, we group points by matching prefixes of leaf indices across the first k trees and calibrate residual quantiles within each group. LoBoost requires no retraining, auxiliary models, or extra splitting beyond the standard train/calibration split. Experiments show competitive interval quality, improved test MSE on most datasets, and large calibration speedups.},
-  eprint     = {2602.22432},
-  year={2026},
-  preview = {loboost.png}
+  abstract      = { Gradient-boosted decision trees are among the strongest off-the-shelf predictors for tabular regression, but point predictions alone do not quantify uncertainty. Conformal prediction provides distribution-free marginal coverage, yet split conformal uses a single global residual quantile and can be poorly adaptive under heteroscedasticity. Methods that improve adaptivity typically fit auxiliary nuisance models or introduce additional data splits/partitions to learn the conformal score, increasing cost and reducing data efficiency. We propose LoBoost, a model-native local conformal method that reuses the fitted ensemble's leaf structure to define multiscale calibration groups. Each input is encoded by its sequence of visited leaves; at resolution level k, we group points by matching prefixes of leaf indices across the first k trees and calibrate residual quantiles within each group. LoBoost requires no retraining, auxiliary models, or extra splitting beyond the standard train/calibration split. Experiments show competitive interval quality, improved test MSE on most datasets, and large calibration speedups.},
+  eprint        = {2602.22432},
+  year          = {2026},
+  preview       = {loboost.png}
 }
 
 @article{amaral2025conformal,
-  title={Conformal Prediction for Compositional Data},
-  author={Amaral, Lucas P and Cabezas, Luben and Ramos, Thiago R and Pereira, Gustavo HGA},
-  journal={arXiv preprint arXiv:2511.18141},
+  title         = {Conformal Prediction for Compositional Data},
+  author        = {Amaral, Lucas P and Cabezas, Luben and Ramos, Thiago R and Pereira, Gustavo HGA},
+  journal       = {arXiv preprint arXiv:2511.18141},
   html          = {https://arxiv.org/abs/2511.18141},
   pdf           = {https://arxiv.org/pdf/2511.18141},
   primaryclass  = {stat.ML},
   bibtex_show   = {true},
   archiveprefix = {arXiv},
-  eprint = {2511.18141},
-  abstract = {In this work, we propose a set of conformal prediction procedures tailored to compositional responses, where outcomes are proportions that must be positive and sum to one. Building on Dirichlet regression, we introduce a split conformal approach based on quantile residuals and a highest-density region strategy that combines a fast coordinate-floor approximation with an internal grid refinement to restore sharpness. Both constructions are model-agnostic at the conformal layer and guarantee finite-sample marginal coverage under exchangeability, while respecting the geometry of the simplex. A comprehensive Monte Carlo study spanning homoscedastic and heteroscedastic designs shows that the quantile residual and grid-refined HDR methods achieve empirical coverage close to the nominal 90\% level and produce substantially narrower regions than the coordinate-floor approximation, which tends to be conservative. We further demonstrate the methods on household budget shares from the BudgetItaly dataset, using standardized socioeconomic and price covariates with a train, calibration, and test split. In this application, the grid-refined HDR attains coverage closest to the target with the smallest average widths, closely followed by the quantile residual approach, while the simple triangular HDR yields wider, less informative sets. Overall, the results indicate that conformal prediction on the simplex can be both calibrated and efficient, providing practical uncertainty quantification for compositional prediction tasks.},
-  year={2025}
+  eprint        = {2511.18141},
+  abstract      = {In this work, we propose a set of conformal prediction procedures tailored to compositional responses, where outcomes are proportions that must be positive and sum to one. Building on Dirichlet regression, we introduce a split conformal approach based on quantile residuals and a highest-density region strategy that combines a fast coordinate-floor approximation with an internal grid refinement to restore sharpness. Both constructions are model-agnostic at the conformal layer and guarantee finite-sample marginal coverage under exchangeability, while respecting the geometry of the simplex. A comprehensive Monte Carlo study spanning homoscedastic and heteroscedastic designs shows that the quantile residual and grid-refined HDR methods achieve empirical coverage close to the nominal 90\% level and produce substantially narrower regions than the coordinate-floor approximation, which tends to be conservative. We further demonstrate the methods on household budget shares from the BudgetItaly dataset, using standardized socioeconomic and price covariates with a train, calibration, and test split. In this application, the grid-refined HDR attains coverage closest to the target with the smallest average widths, closely followed by the quantile residual approach, while the simple triangular HDR yields wider, less informative sets. Overall, the results indicate that conformal prediction on the simplex can be both calibrated and efficient, providing practical uncertainty quantification for compositional prediction tasks.},
+  year          = {2025}
 }
 
 
-@InProceedings{ramos2026conformal,
-  title={Conformal Prediction via Transported Beta Laws},
-  author={Ramos, Thiago R and Graziadei, Helton and Cabezas, Luben},
-  booktitle = 	 {Proceedings of the Fifteenth Symposium on Conformal and Probabilistic Prediction with Applications},
-  pages = 	 {133--168},
-  year = 	 {2026},
-  editor = 	 {Ahlberg, Ernst and Johansson, Ulf and Boström, Henrik and Carlevaro, Alberto and Hallberg Szabadváry, Johan and Carlsson, Lars},
-  volume = 	 {329},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {02--04 Sep},
-  publisher =    {PMLR},
-  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v329/main/assets/r-ramos26a/r-ramos26a.pdf},
-  url = 	 {https://proceedings.mlr.press/v329/r-ramos26a.html},
-  abstract = 	 {Split conformal prediction provides finite-sample marginal coverage under exchangeability, but this guarantee averages over the random calibration sample. We study instead the law of the calibration-conditional coverage induced by a realized conformal threshold. In the continuous i.i.d. setting this law is exactly Beta(k,n+1-k), so the usual marginal guarantee corresponds to its mean. We take this beta law as a finite-sample reference object and quantify departures from it using Wasserstein distances on [0,1]. The framework yields direct bounds on marginal coverage gaps and on bad-calibration probabilities, and separates different sources of non-i.i.d. behavior according to how they deform the beta reference: test-side shift acts through a transport map on the coverage scale, while calibration dependence changes the order-statistic law itself. We instantiate the framework in scale-shift, clustered, and stationary mixing settings, where the induced deformations can be characterized explicitly or through Berry–Esseen approximations. Simulations on dependent processes confirm that the first-order approximation tracks the empirical Wasserstein distance even at moderate sample sizes.},
-  bibtex_show   = {true}
+@inproceedings{ramos2026conformal,
+  title       = {Conformal Prediction via Transported Beta Laws},
+  author      = {Ramos, Thiago R and Graziadei, Helton and Cabezas, Luben},
+  booktitle   = {Proceedings of the Fifteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages       = {133--168},
+  year        = {2026},
+  editor      = {Ahlberg, Ernst and Johansson, Ulf and Boström, Henrik and Carlevaro, Alberto and Hallberg Szabadváry, Johan and Carlsson, Lars},
+  volume      = {329},
+  series      = {Proceedings of Machine Learning Research},
+  month       = {02--04 Sep},
+  publisher   = {PMLR},
+  pdf         = {https://raw.githubusercontent.com/mlresearch/v329/main/assets/r-ramos26a/r-ramos26a.pdf},
+  url         = {https://proceedings.mlr.press/v329/r-ramos26a.html},
+  abstract    = {Split conformal prediction provides finite-sample marginal coverage under exchangeability, but this guarantee averages over the random calibration sample. We study instead the law of the calibration-conditional coverage induced by a realized conformal threshold. In the continuous i.i.d. setting this law is exactly Beta(k,n+1-k), so the usual marginal guarantee corresponds to its mean. We take this beta law as a finite-sample reference object and quantify departures from it using Wasserstein distances on [0,1]. The framework yields direct bounds on marginal coverage gaps and on bad-calibration probabilities, and separates different sources of non-i.i.d. behavior according to how they deform the beta reference: test-side shift acts through a transport map on the coverage scale, while calibration dependence changes the order-statistic law itself. We instantiate the framework in scale-shift, clustered, and stationary mixing settings, where the induced deformations can be characterized explicitly or through Berry–Esseen approximations. Simulations on dependent processes confirm that the first-order approximation tracks the empirical Wasserstein distance even at moderate sample sizes.},
+  award_name  = {Best Paper Award},
+  award       = {Received the Best Paper Award at COPA 2026.},
+  bibtex_show = {true}
 }
 
 @article{cabezas2024distributionfreecalibrationstatisticalconfidence,
-  title={Conformal Calibration of Statistical Confidence Sets},
-  author={Luben Miguel Cruz Cabezas and Guilherme Soares and Thiago Ramos and Rafael Bassi Stern and Rafael Izbicki},
-  journal={Transactions on Machine Learning Research},
-  issn={2835-8856},
-  year={2026},
-  url={https://openreview.net/forum?id=J4lK62PVE6},
-  note={},
-  preview  = {trust.png},
-  abstract = { Constructing valid confidence sets is a crucial task in statistical inference, yet traditional methods often face challenges when dealing with complex models or limited observed sample sizes. These challenges are frequently encountered in modern applications, such as Likelihood-Free Inference (LFI). In these settings, confidence sets may fail to maintain a confidence level close to the nominal value. In this paper, we introduce two novel methods, TRUST and TRUST++, for calibrating confidence sets to achieve distribution-free conditional coverage. These methods rely entirely on simulated data from the statistical model to perform calibration. Leveraging insights from conformal prediction techniques adapted to the statistical inference context, our methods ensure both finite-sample local coverage and asymptotic conditional coverage as the number of simulations increases, even if n is small. They effectively handle nuisance parameters and provide computationally efficient uncertainty quantification for the estimated confidence sets. This allows users to assess whether additional simulations are necessary for robust inference. Through theoretical analysis and experiments on models with both tractable and intractable likelihoods, we demonstrate that our methods outperform existing approaches, particularly in small-sample regimes. This work bridges the gap between conformal prediction and statistical inference, offering practical tools for constructing valid confidence sets in complex models.},
-  html = {https://openreview.net/forum?id=J4lK62PVE6},
-  pdf = {https://openreview.net/pdf?id=J4lK62PVE6},
-  bibtex_show   = {true},
+  title       = {Conformal Calibration of Statistical Confidence Sets},
+  author      = {Luben Miguel Cruz Cabezas and Guilherme Soares and Thiago Ramos and Rafael Bassi Stern and Rafael Izbicki},
+  journal     = {Transactions on Machine Learning Research},
+  issn        = {2835-8856},
+  year        = {2026},
+  url         = {https://openreview.net/forum?id=J4lK62PVE6},
+  note        = {},
+  preview     = {trust.png},
+  selected    = {true},
+  abstract    = { Constructing valid confidence sets is a crucial task in statistical inference, yet traditional methods often face challenges when dealing with complex models or limited observed sample sizes. These challenges are frequently encountered in modern applications, such as Likelihood-Free Inference (LFI). In these settings, confidence sets may fail to maintain a confidence level close to the nominal value. In this paper, we introduce two novel methods, TRUST and TRUST++, for calibrating confidence sets to achieve distribution-free conditional coverage. These methods rely entirely on simulated data from the statistical model to perform calibration. Leveraging insights from conformal prediction techniques adapted to the statistical inference context, our methods ensure both finite-sample local coverage and asymptotic conditional coverage as the number of simulations increases, even if n is small. They effectively handle nuisance parameters and provide computationally efficient uncertainty quantification for the estimated confidence sets. This allows users to assess whether additional simulations are necessary for robust inference. Through theoretical analysis and experiments on models with both tractable and intractable likelihoods, we demonstrate that our methods outperform existing approaches, particularly in small-sample regimes. This work bridges the gap between conformal prediction and statistical inference, offering practical tools for constructing valid confidence sets in complex models.},
+  html        = {https://openreview.net/forum?id=J4lK62PVE6},
+  pdf         = {https://openreview.net/pdf?id=J4lK62PVE6},
+  bibtex_show = {true}
 }
 
 

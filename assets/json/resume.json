@@ -21,6 +21,7 @@
       "position": "Visting PhD researcher",
       "url": "https://team.inria.fr/statify/",
       "startDate": "2025-09-29",
+      "endDate": "2026-09-28",
       "highlights": [
         "Research funded by FAPESP (Grant 2025/06168-8)."
       ]
@@ -59,7 +60,8 @@
       "url": "https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes",
       "area": "Statistics and Machine Learning",
       "studyType": "Visting PhD",
-      "startDate": "2025-09-29"
+      "startDate": "2025-09-29",
+      "endDate": "2026-09-28"
     },
     {
       "institution": "Federal University of São Carlos",
@@ -101,7 +103,7 @@
       "name": "Conformal Prediction via Transported Beta Laws",
       "publisher": "15th Symposium on Conformal and Probabilistic Prediction With Applications (COPA)",
       "releaseDate": "2026-09",
-      "url": "https://arxiv.org/abs/2605.19024"
+      "url": "https://proceedings.mlr.press/v329/r-ramos26a.html"
     },
     {
       "name": "CP4SBI: Local Conformal Calibration of Credible Sets in Simulation-Based Inference",
@@ -195,10 +197,11 @@
         "Conformal Prediction",
         "Local Calibration",
         "Uncertainty Quantification",
-        "Likelihood-Free Inference",
-        "Neural Networks",
-        "PAC Learning",
-        "Decision Trees and Random Forests"
+        "Simulation-Based Inference",
+        "Epistemic Uncertainty",
+        "Deep Learning",
+        "Decision Trees and Random Forests",
+        "Tabular Foundation Models"
       ]
     },
     {
@@ -208,7 +211,8 @@
         "Non Parameteric Inference",
         "Hypothesis Testing",
         "Bayesian Inference",
-        "Bayes Non-Parametric Inference"
+        "Bayes Non-Parametric Inference",
+        "Region/Interval Estimation"
       ]
     }
   ]
