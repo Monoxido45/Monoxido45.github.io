@@ -23,7 +23,7 @@ I am a fourth-year Ph.D. candidate in Statistics at the [Interinstitutional Grad
 
 During my Ph.D., I spent one year as a doctoral research visitor at the [Inria centre at Université Grenoble Alpes](https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes) in Grenoble, France, under the supervision of [Prof. Pedro L. C. Rodrigues](https://plcrodrigues.github.io/), working on simulation-based inference methods for climate-oriented simulators. I remain an active member of the [SBI4C](https://sbi4c.inria.fr/) group, where this collaboration continues.
 
-My research interests center around uncertainty quantification in machine learning, statistical learning, and nonparametric inference — with a particular emphasis on conformal prediction, likelihood-free inference (also known as simulation-based inference), and hypothesis testing. Lately, I have been especially interested in the intersection between conformal prediction and modern statistical inference, particularly in the context of likelihood-free methods.
+My research interests center around uncertainty quantification in machine learning, statistical learning, and nonparametric inference — with a particular emphasis on conformal prediction, likelihood-free inference (also known as simulation-based inference), and hypothesis testing. Lately, I have been especially interested in the intersection between conformal prediction and likelihood-free methods, as well as in applying tabular foundation models to both.
 
 Outside of research, I enjoy reading books and manga, going to the gym, and having long, curious conversations with friends.
 
