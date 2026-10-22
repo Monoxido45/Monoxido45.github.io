@@ -25,7 +25,7 @@ During my Ph.D., I spent one year as a doctoral research visitor at the [Inria c
 
 My research interests center around uncertainty quantification in machine learning, statistical learning, and nonparametric inference — with a particular emphasis on conformal prediction, likelihood-free inference (also known as simulation-based inference), and hypothesis testing. Lately, I have been especially interested in the intersection between conformal prediction and likelihood-free methods, as well as in applying tabular foundation models to both.
 
-Outside of research, I enjoy reading books and manga, going to the gym, and having long, curious conversations with friends.
+Outside of research, I enjoy reading books and manga, watching movies and anime, going to the gym, and getting lost in long, curious conversations with friends. When possible, I also love to hike or just walk randomly across the city or neighborhood.
 
 
 <!---
