@@ -82,12 +82,6 @@
       "url": "https://www.sciencedirect.com/science/article/pii/S0020025524012830?via%3Dihub"
     },
     {
-      "name": "Hierarchical clustering: Visualization, feature importance and model selection",
-      "publisher": "Applied Soft Computing",
-      "releaseDate": "2023-07",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1568494623003216"
-    },
-    {
       "name": "Epistemic Uncertainty in Conformal Scores: A Unified Approach",
       "publisher": "41st Conference on Uncertainty in Artificial Intelligence (UAI)",
       "releaseDate": "2025-06",
@@ -100,22 +94,10 @@
       "url": "https://openreview.net/forum?id=J4lK62PVE6"
     },
     {
-      "name": "Conformal Prediction via Transported Beta Laws",
-      "publisher": "15th Symposium on Conformal and Probabilistic Prediction With Applications (COPA)",
-      "releaseDate": "2026-09",
-      "url": "https://proceedings.mlr.press/v329/r-ramos26a.html"
-    },
-    {
       "name": "CP4SBI: Local Conformal Calibration of Credible Sets in Simulation-Based Inference",
       "publisher": "Philosophical Transactions of the Royal Society A",
       "releaseDate": "2026-08",
       "url": "https://arxiv.org/abs/2508.17077"
-    },
-    {
-      "name": "REACT to NHST: Sensible conclusions to meaningful hypotheses",
-      "publisher": "The Quantitative Methods for Psychology (TQMP)",
-      "releaseDate": "2025-05",
-      "url": "https://www.tqmp.org/RegularArticles/vol21-2/p043/index.html"
     }
   ],
   "awards": [
